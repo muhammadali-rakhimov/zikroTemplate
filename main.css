@@ -11098,11 +11098,12 @@ header > .uk-sticky {
 }
 
 .bg-founder-person {
-  width: 100px;
-}
-
-.bg-founder-person img {
-  width: 100px;
+  
+  background-image: url(images/108.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: red;
 }
 
 
