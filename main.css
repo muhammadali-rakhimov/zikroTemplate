@@ -11080,6 +11080,10 @@ header > .uk-sticky {
   text-align: center;
 }
 
+.bg-founder-person > img {
+  margin-top: 10px;
+}
+
 .bg-founder-person-links {
   font-size: 30px;
 }
