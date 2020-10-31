@@ -11081,25 +11081,23 @@ header > .uk-sticky {
 }
 
 .bg-founder-person-links {
-  padding: 0;
-  margin: 0;
+  font-size: 35px;
   background-color: green;
 }
 
 .bg-founder-person-links a {
-  margin: 20px; /*temp*/
-  font-size: 35px;
-  color: black;
+  margin-right: 10px;
+  color: #000;  
   background-color: blue;
 }
 
 .bg-founder-person-links i {
+  text-align: center;
   background-color: lightseagreen;
 }
 
 .bg-founder-person-links a:hover {
-  color: #000;
-  box-shadow: 10px 10px 10px #000;
+  /*box-shadow: 10px 10px 10px #000;*/
   text-decoration: none;
 }
 
