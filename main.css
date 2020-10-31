@@ -2603,23 +2603,21 @@ select.uk-form-width-xsmall {
     padding-right: 30px;
   }
   .main-person-section {
-    width: 450px;
+    width: 350px;
   }
 }
 
 
-/*my*/
+
 /* Tablet landscape and bigger */
 @media (min-width: 960px) {
   .uk-container {
     padding-left: 30px;
     padding-right: 30px;
   }
-
-  .main-person-section {
-    width: 800px;
-  }
 }
+
+
 
 
 /*
@@ -3566,11 +3564,14 @@ select.uk-form-width-xsmall {
   font-size: 2.23125rem;
   line-height: 1.2;
 }
-
+/*my*/
 /* Tablet landscape and bigger */
 @media (min-width: 960px) {
   .uk-article-title {
     font-size: 2.625rem;
+  }
+  .main-person-section {
+    width: 600px;
   }
 }
 
@@ -11035,13 +11036,7 @@ header > .uk-sticky {
 
 /* start *//* start *//* start *//* start *//* start *//* start */
 /*mine*/
-.bg-main-person {
-  height: 600px;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  background-image: url('images/100.png');
-  background-repeat: no-repeat;
-  background-position: right;
-}
+
 
 .main-person-section {
   /*background-color: #effff3;*/
@@ -11089,41 +11084,60 @@ header > .uk-sticky {
   margin-top: 70px;
 }
 
-.bg-constructor-person {
-  height: 600px;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  background-image: url('images/107.webp');
-  background-repeat: no-repeat;
-  background-position: left;
-}
 
-.bg-founder-person {
-  
-  background-image: url(images/108.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: red;
-}
+
+
 
 
 
 
 /*my*/
 
-@media (min-width: 1200px;) {
+@media (min-width: 640px) {
 
+.bg-main-person {
+  height: 500px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-image: url('images/100.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
 
+.bg-constructor-person {
+  height: 600px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-image: url('images/107.webp');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
 
 }
+
+.bg-founder-person {
+  background-image: url(images/108.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: contain;
+}
+
+}
+
+
+
+@media (max-width: 639px) {
+
+.main-person-section {
+  width: 100%;
+}
+
+}
+
 
 @media only screen and (min-width: 960px) and (max-width: 1199px) {
 
 
-
-}
-
-@media only screen and (max-width : 600px) {
 
 
 
