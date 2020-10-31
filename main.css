@@ -11132,6 +11132,14 @@ header > .uk-sticky {
   width: 100%;
 }
 
+.main-person-section h1 {
+  text-align: center;
+}
+
+.mobile-section-margin {
+  padding: 0 !important;
+}
+
 }
 
 
