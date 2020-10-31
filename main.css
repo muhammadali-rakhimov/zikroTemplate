@@ -11081,23 +11081,31 @@ header > .uk-sticky {
 }
 
 .bg-founder-person-links {
-  font-size: 35px;
-  background-color: green;
+  font-size: 30px;
 }
 
 .bg-founder-person-links a {
   margin-right: 10px;
-  color: #000;  
-  background-color: blue;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 5px;
 }
 
-.bg-founder-person-links i {
-  text-align: center;
-  background-color: lightseagreen;
+.bg-founder-person-links-1 {
+  margin-left: 10px;
+}
+
+.bg-founder-person-links-2 {
+  margin-left: 10px;
+}
+
+.bg-founder-person-links-3 {
+  padding: 0 10px;
 }
 
 .bg-founder-person-links a:hover {
   /*box-shadow: 10px 10px 10px #000;*/
+  color: #661400;
   text-decoration: none;
 }
 
