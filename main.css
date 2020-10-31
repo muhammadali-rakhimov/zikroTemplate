@@ -11064,7 +11064,7 @@ header > .uk-sticky {
 }
 
 .main-person-section a:hover {
-  box-shadow: 20px;
+  color: white;
   text-decoration: none;
 }
 
@@ -11080,13 +11080,26 @@ header > .uk-sticky {
   text-align: center;
 }
 
+.bg-founder-person-links {
+  padding: 0;
+  margin: 0;
+  background-color: green;
+}
+
 .bg-founder-person-links a {
-  font-size: 30px;
+  margin: 20px; /*temp*/
+  font-size: 35px;
   color: black;
+  background-color: blue;
+}
+
+.bg-founder-person-links i {
+  background-color: lightseagreen;
 }
 
 .bg-founder-person-links a:hover {
-  color: #fff;
+  color: #000;
+  box-shadow: 10px 10px 10px #000;
   text-decoration: none;
 }
 
@@ -11095,16 +11108,6 @@ header > .uk-sticky {
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
   border: 2px solid rgb(245, 23, 103);
-}
-
-.bg-founder-person {
-
-  /*background-color: green;*/
-}
-
-
-.card-founder-person {
-  /*background-color: #ccc;*/
 }
 
 .bg-founder-person-parent {
