@@ -11081,14 +11081,19 @@ header > .uk-sticky {
 }
 
 .bg-founder-person div {
-  margin: 0 auto;
-  text-align: center;
+  /*margin: 0 auto;*/
+  /*text-align: center;*/
 }
 
-.bg-founder-person-links {
-  position: relative;
-  right: 85px;
+.bg-founder-person-links a {
+  color: black;
 }
+
+.bg-founder-person {
+  
+}
+
+
 
 
 
@@ -11119,21 +11124,15 @@ header > .uk-sticky {
 }
 
 .bg-founder-person-image {
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
   background-image: url(images/108.webp);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
   background-size: contain;
   border: 2px solid rgb(245, 23, 103);
-}
-
-.bg-founder-person-links {
-  /*text-align: center;
-  padding-right: 170px;*/
 }
 
 }
@@ -11155,17 +11154,21 @@ header > .uk-sticky {
 }
 
 .bg-founder-person-image {
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
   background-image: url(images/108.webp);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
   background-size: contain;
   border: 2px solid rgb(245, 23, 103);
 }
+
+.bg-founder-person-child {
+  margin: 0 auto;
+}
+
 
 }
 
