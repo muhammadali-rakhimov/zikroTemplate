@@ -11080,11 +11080,15 @@ header > .uk-sticky {
   text-align: center;
 }
 
-.card-body {
-  margin-top: 70px;
+.bg-founder-person div {
+  margin: 0 auto;
+  text-align: center;
 }
 
-
+.bg-founder-person-links {
+  position: relative;
+  right: 85px;
+}
 
 
 
@@ -11114,12 +11118,22 @@ header > .uk-sticky {
 
 }
 
-.bg-founder-person {
+.bg-founder-person-image {
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
   background-image: url(images/108.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-size: contain;
+  border: 2px solid rgb(245, 23, 103);
+}
+
+.bg-founder-person-links {
+  /*text-align: center;
+  padding-right: 170px;*/
 }
 
 }
@@ -11138,6 +11152,19 @@ header > .uk-sticky {
 
 .mobile-section-margin {
   padding: 0 !important;
+}
+
+.bg-founder-person-image {
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-image: url(images/108.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: contain;
+  border: 2px solid rgb(245, 23, 103);
 }
 
 }
