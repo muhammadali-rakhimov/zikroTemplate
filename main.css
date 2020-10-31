@@ -11064,7 +11064,7 @@ header > .uk-sticky {
 }
 
 .main-person-section a:hover {
-  color: white;
+  box-shadow: 20px;
   text-decoration: none;
 }
 
@@ -11085,6 +11085,11 @@ header > .uk-sticky {
   color: black;
 }
 
+.bg-founder-person-links a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
 .bg-founder-person-image {
   width: 100%;
   border-top-left-radius: 50px;
@@ -11094,17 +11099,16 @@ header > .uk-sticky {
 
 .bg-founder-person {
 
-  background-color: green;
+  /*background-color: green;*/
 }
 
 
 .card-founder-person {
-  background-color: #ccc;
+  /*background-color: #ccc;*/
 }
 
 .bg-founder-person-parent {
   margin: 0 !important;
-  background-color: #999;
 }
 
 
