@@ -11036,7 +11036,7 @@ header > .uk-sticky {
 }
 
 .main-person-section {
-  background-color: #effff3;
+  /*background-color: #effff3;*/
 }
 
 .main-person-h1 {
@@ -11164,7 +11164,7 @@ header > .uk-sticky {
 @media (min-width: 640px) {
 
 .bg-main-person {
-  background-color: #eee;
+  /*background-color: #eee;*/
 }
 
 
@@ -11196,7 +11196,8 @@ header > .uk-sticky {
   padding: 0 !important;
 }
 
-.bg-main-person img {
+.bg-main-person-image,
+.bg-constructor-person-image {
   display: none;
 }
 
@@ -11231,6 +11232,5 @@ header > .uk-sticky {
 
 
 }
-
 
 /* end *//* end *//* end *//* end *//* end *//* end *//* end */
