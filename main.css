@@ -11036,7 +11036,7 @@ header > .uk-sticky {
 }
 
 .main-person-section {
-  /*background-color: #effff3;*/
+  
 }
 
 .main-person-h1 {
@@ -11147,8 +11147,13 @@ header > .uk-sticky {
   align-items: center;
 }
 
+.slider-height {
+  height: 500px;
+}
 
-
+footer > div {
+  padding: 0 30px;
+}
 
 
 
@@ -11165,7 +11170,7 @@ header > .uk-sticky {
 @media (min-width: 640px) {
 
 .bg-main-person {
-  /*background-color: #eee;*/
+  
 }
 
 
