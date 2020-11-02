@@ -11197,9 +11197,12 @@ header > .uk-sticky {
   padding: 0 !important;
 }
 
-.bg-main-person-image,
-.bg-constructor-person-image {
+.bg-main-person-image {
   display: none;
+}
+
+.bg-constructor-person-image {
+  display: none !important;
 }
 
 
