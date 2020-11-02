@@ -11168,8 +11168,25 @@ header > .uk-sticky {
   background-color: #ccc;
 }
 
+.blog-news-image {
+
+}
+
+.blog-news-image {
+  
+}
+
 .blog-news-text {
   background-color: #999;
+  line-height: 1em;
+  font-size: 14px;
+}
+
+.blog-news-text div {
+  padding: 5px;
+  /*overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;*/
 }
 
 .blog-news-columns-body {
@@ -11225,7 +11242,6 @@ footer > div {
 
 
 
-
 }
 
 
@@ -11256,6 +11272,7 @@ footer > div {
 .blog-news-image img {
   width: 100%;
 }
+
 
 
 
