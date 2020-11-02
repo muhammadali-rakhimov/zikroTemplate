@@ -11168,7 +11168,7 @@ header > .uk-sticky {
   background-color: #ccc;
 }
 
-.blog-news-columns-head-image {
+.blog-news-text {
   background-color: #999;
 }
 
@@ -11180,14 +11180,6 @@ header > .uk-sticky {
   background-color: #888;
 }
 
-.blog-news-columns-head-image {
-
-}
-
-
-.blog-news-columns-body p {
-
-}
 
 
 
@@ -11260,6 +11252,12 @@ footer > div {
 .bg-constructor-person-image {
   display: none !important;
 }
+
+.blog-news-image img {
+  width: 100%;
+}
+
+
 
 
 
