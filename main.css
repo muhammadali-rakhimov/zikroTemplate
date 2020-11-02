@@ -2602,9 +2602,6 @@ select.uk-form-width-xsmall {
     padding-left: 30px;
     padding-right: 30px;
   }
-  .main-person-section {
-    width: 350px;
-  }
 }
 
 
@@ -3564,7 +3561,7 @@ select.uk-form-width-xsmall {
   font-size: 2.23125rem;
   line-height: 1.2;
 }
-/*my*/
+
 /* Tablet landscape and bigger */
 @media (min-width: 960px) {
   .uk-article-title {
@@ -11035,14 +11032,18 @@ header > .uk-sticky {
 /*mine*/
 
 
+
+.title-mobile {
+  line-height: 1em;
+}
+
 .main-person-section {
   /*background-color: #effff3;*/
 }
 
 .main-person-h1 {
   text-transform: uppercase;
-  font-size: 40px;
-  line-height: 65px;
+  font-size: 35px;
   font-weight: bold;
   margin: 0px 0px 40px;
 }
@@ -11142,7 +11143,7 @@ header > .uk-sticky {
 }
 
 .main-person-section {
-  padding-top: 10px;
+  
 }
 
 .bg-constructor-person {
@@ -11205,11 +11206,9 @@ header > .uk-sticky {
   padding: 0 !important;
 }
 
-.title-mobile {
-  line-height: 1em;
+.bg-main-person img {
+  display: none;
 }
-
-
 
 
 
