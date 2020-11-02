@@ -3570,9 +3570,6 @@ select.uk-form-width-xsmall {
   .uk-article-title {
     font-size: 2.625rem;
   }
-  .main-person-section-2 {
-    width: 670px;
-  }
 }
 
 /* Meta
@@ -11170,17 +11167,9 @@ header > .uk-sticky {
 @media (min-width: 640px) {
 
 .bg-main-person {
-  height: 600px;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  background-image: url('images/100.png');
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
+  background-color: #eee;
 }
 
-.bg-main-person {
-  /*height: 200px;*/
-}
 
 .bg-constructor-person {
   height: 600px;
@@ -11205,7 +11194,7 @@ header > .uk-sticky {
 @media (max-width: 639px) {
 
 .main-person-section {
-  width: 100%;
+  
 }
 
 .main-person-section h1 {
@@ -11230,9 +11219,7 @@ header > .uk-sticky {
 
 @media (min-width: 1010px) {
 
-.main-person-section {
-  width: 700px;
-}
+
 
 }
 
@@ -11249,9 +11236,7 @@ header > .uk-sticky {
 
 @media (min-width: 640px;) and (max-width: 959px;) {
 
-.main-person-section {
-  width: 700px;
-}
+
 
 }
 
