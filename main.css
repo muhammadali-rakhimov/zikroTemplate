@@ -11156,6 +11156,41 @@ header > .uk-sticky {
   margin-left: 0 !important;
 }
 
+.blog-news-columns-head {
+  background-color: #ccc;
+  /*padding: 0 !important;*/
+}
+
+.blog-news-columns-head-image {
+  background-color: #999;
+}
+
+.blog-news-columns-body {
+  background-color: lightseagreen;
+}
+
+.blog-news-columns-body p {
+  background-color: #888;
+}
+
+.blog-news-columns-head-image {
+  
+}
+
+
+.blog-news-columns-body p {
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
