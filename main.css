@@ -11122,10 +11122,6 @@ header > .uk-sticky {
   text-decoration: none;
 }
 
-.bg-founder-person {
-  
-}
-
 .bg-founder-person-image {
   width: 100%;
   border-top-left-radius: 50px;
@@ -11139,6 +11135,11 @@ header > .uk-sticky {
 
 .main-person-section {
   
+}
+
+.bg-main-person {
+   display: flex;
+   align-items: center;
 }
 
 .bg-constructor-person {
