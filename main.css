@@ -11173,9 +11173,6 @@ header > .uk-sticky {
 
 }
 
-.blog-news-image img {
-
-}
 
 .blog-news-text {
   /*background-color: #999;*/
@@ -11218,7 +11215,10 @@ header > .uk-sticky {
   white-space: nowrap;
 }
 
-
+.blog-news-text-title {
+  font-weight: bold;
+  font-size: 18px;
+}
 
 
 
@@ -11286,7 +11286,7 @@ footer > div {
 }
 
 .blog-news-image img {
-  width: 100%;
+  /*width: 100%;*/
 }
 
 
@@ -11309,10 +11309,19 @@ footer > div {
 
 
 
+@media (min-width: 1200px) {
+
+.blog-news-image img {
+  
+}
+
+}
 
 @media (min-width: 960px) and (max-width: 1199px) {
 
-
+.blog-news-image img {
+  
+}
 
 
 }
@@ -11320,6 +11329,9 @@ footer > div {
 @media (min-width: 640px) and (max-width: 959px) {
 
 
+.blog-news-image img {
+  margin: 0 auto;
+}
 
 }
 
