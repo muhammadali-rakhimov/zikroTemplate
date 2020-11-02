@@ -11035,6 +11035,14 @@ header > .uk-sticky {
   line-height: 1em;
 }
 
+.kirish-button-style {
+  /*border: 1px solid #000 !important;*/
+}
+
+.logo-nav {
+  color: black !important;
+}
+
 .main-person-section {
   
 }
@@ -11158,7 +11166,6 @@ header > .uk-sticky {
 
 .blog-news-columns-head {
   background-color: #ccc;
-  /*padding: 0 !important;*/
 }
 
 .blog-news-columns-head-image {
@@ -11174,7 +11181,7 @@ header > .uk-sticky {
 }
 
 .blog-news-columns-head-image {
-  
+
 }
 
 
