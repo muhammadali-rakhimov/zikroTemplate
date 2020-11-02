@@ -11138,12 +11138,13 @@ header > .uk-sticky {
 }
 
 .bg-main-person {
-   display: flex;
-   align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .bg-constructor-person {
-  
+  display: flex;
+  align-items: center;
 }
 
 
@@ -11210,7 +11211,6 @@ header > .uk-sticky {
 @media (max-width: 960px) {
 
 .card-founder-person {
-  background-color: #eee;
   padding-left: 0 !important;
 }
 
