@@ -2369,7 +2369,7 @@ select.uk-form-width-xsmall {
 .uk-button-primary-light.uk-active {
   background-color: #d9f7df;
   color: #6BE181;
-  border: 1px solid #d9f7df;
+  /*border: 1px solid #d9f7df;*/
 }
 
 .uk-button-primary-outline {
@@ -11155,6 +11155,8 @@ header > .uk-sticky {
 .blog-news > .uk-grid {
   margin-left: 0 !important;
 }
+
+
 
 
 
