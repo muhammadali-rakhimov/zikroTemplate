@@ -82,6 +82,7 @@ html {
   /* 3 */
   background: #fff;
   color: #56667b;
+  scroll-behavior: smooth;
 }
 
 /*
@@ -11219,6 +11220,8 @@ header > .uk-sticky {
   font-weight: bold;
   font-size: 18px;
 }
+
+
 
 
 
