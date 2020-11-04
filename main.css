@@ -82,7 +82,7 @@ html {
   /* 3 */
   background: #fff;
   color: #56667b;
-  scroll-behavior: smooth;
+  /*scroll-behavior: smooth;*/
 }
 
 /*
@@ -11220,6 +11220,46 @@ header > .uk-sticky {
   font-weight: bold;
   font-size: 18px;
 }
+
+.fon-testimonials {
+  /*background-color: #eee;*/
+}
+
+.card-testimonials {
+  border: 1px solid #eee;
+  border-top: 5px solid red;
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
+  border-radius: 10px;
+}
+
+.card-testimonials-about {
+  position: relative;
+  bottom: 50px;
+}
+
+.card-testimonials-image {
+}
+
+.card-testimonials-body {
+  
+}
+
+.card-testimonials-body-title {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+.card-testimonials-body-com {
+
+}
+
+.card-testimonials-links {
+  position: relative;
+  bottom: 30px;
+}
+
+
 
 
 
