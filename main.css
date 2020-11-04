@@ -11347,6 +11347,10 @@ footer > div {
   padding-left: 0 !important;
 }
 
+.card-testimonials-mobile {
+  display: block !important;
+}
+
 }
 
 
