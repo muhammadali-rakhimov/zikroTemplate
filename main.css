@@ -11268,8 +11268,52 @@ header > .uk-sticky {
   bottom: 30px;
 }
 
+.video-parent {
+
+}
+
 .container-video {
-  height: 600px;
+  /*height: 600px;*/
+}
+
+.video-playlist {
+  overflow-y: scroll;
+  height: 400px;
+
+}
+
+.video-playlist::-webkit-scrollbar {
+  width: 5px;
+}
+
+.video-playlist::-webkit-scrollbar-track {
+  /*background: #f1f1f1;*/
+}
+
+.video-playlist::-webkit-scrollbar-thumb {
+  background: #f7155f;
+}
+
+.video-playlist::-webkit-scrollbar-thumb:hover {
+  background: #d41152;
+}
+
+/*forHtml*/
+
+html::-webkit-scrollbar {
+  width: 15px;
+}
+
+html::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #f0506e;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #d41152;
 }
 
 
